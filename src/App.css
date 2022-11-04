@@ -108,6 +108,9 @@ margin: 8px;
   }
   .scroll-content-left{
 width: 100%;
-
+  }
+  .Sidebar-item_1 img{
+    width: 30px;
+    height: 30px;
   }
 }

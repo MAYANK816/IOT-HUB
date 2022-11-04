@@ -59,8 +59,10 @@ const StatusCard = ({data,fun}) => {
       <p>{data.sensor_value}</p>
       {data.active_status?<p style={{color:"green"}}>Online </p>:<p style={{color:"red"}}>Offline </p>}
       </Link>
-     { toggle? <button onClick={()=>deleteItem(data.id)} id="delbtn">Delete</button>:""}
+      <div>
+    { toggle? <button onClick={()=>deleteItem(data.id)} id="delbtn">Delete</button>:""}
      { toggle? <button onClick={()=>ToggleItem(data.id)}  id="togglebtn">Toggle Status</button>:""}
+     </div>
     </div>
   )
 }

@@ -21,12 +21,12 @@ const App = () => {
        {
         isMobile ?  <Sidebar/>: ""
       }
-    <div className='scroll-content-left'>
+    
       {
-        isMobile ?  "": <Header/>
+        isMobile ?  "":<div className='scroll-content-left'> <Header/> </div>
       }
       
-      </div>
+     
       <div className='scroll-content-right'>
       <Dashboard/>
       </div>

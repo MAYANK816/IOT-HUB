@@ -77,4 +77,40 @@ color: #000000;
   font-family: 'Roboto';
   font-weight: 600;
   cursor: pointer;
+  margin-left: 5px;
+}
+@media screen and (max-width:768px) {
+  .Main_body_child2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .card{
+    width: 100%;
+  }
+  .card_2{
+    height: 15vh;
+    width: 100%;
+    flex-direction: column !important;
+  }
+  .card_2 h3{
+    font-size: 18px !important;
+  }
+  .card_2 p{
+    font-size: 10px !important;
+  }
+  .status_child2{
+    width: 100vw;
+  }
+  #delbtn{
+    font-size: 10px;
+    font-weight: 300;
+  }
+  #togglebtn{
+   
+    font-size: 8px;
+    font-weight: 300;
+  }
 }
