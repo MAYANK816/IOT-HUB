@@ -8,13 +8,13 @@ const Sidebar = () => {
         <p>IOT HUB</p>
         </div>
       <div className='Sidebar-item_2'>
-        <img src="/icons/pencil-edit.png" alt="sidebar_img"></img>
-        <img src="/icons/inbox.png"  alt="sidebar_img"></img>
-        <img src="/icons/bookmark.png"  alt="sidebar_img"></img>
-        <img src="/icons/share.png"  alt="sidebar_img"></img>
-        <img src="/icons/download.png"  alt="sidebar_img"></img>
-        <img src="/icons/printer.png"  alt="sidebar_img"></img>
-        <img src="/icons/settings.png"  alt="sidebar_img"></img>
+        <img src="/Icons/pencil-edit.png" alt="sidebar_img"></img>
+        <img src="/Icons/inbox.png"  alt="sidebar_img"></img>
+        <img src="/Icons/bookmark.png"  alt="sidebar_img"></img>
+        <img src="/Icons/share.png"  alt="sidebar_img"></img>
+        <img src="/Icons/download.png"  alt="sidebar_img"></img>
+        <img src="/Icons/printer.png"  alt="sidebar_img"></img>
+        <img src="/Icons/settings.png"  alt="sidebar_img"></img>
         </div>
 
     </div>
